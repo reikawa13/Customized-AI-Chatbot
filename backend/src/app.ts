@@ -1,3 +1,5 @@
+/* All of the application code is implemented here*/
+
 import express from "express";
 import { config } from "dotenv";
 import morgan from "morgan";
@@ -18,3 +20,4 @@ app.use(morgan("dev"));
 app.use("/api/v1", appRouter);
 
 export default app;
+/* export default is allowed only one per file. imported inside curly brackets */

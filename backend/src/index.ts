@@ -1,4 +1,5 @@
-/* "index.ts" is often used as the main file of the application. 
+/* Description: 
+*  "index.ts" is often used as the main file of the application. 
 *  It usually includes import, export, initialization and application logic.
 */
 
@@ -6,7 +7,7 @@ import app from "./app.js";
 import { connectToDatabase } from "./db/connection.js";
 
 //connections and listeneres
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000; // in .env, PORT is configured as 5002
 connectToDatabase()
   .then(() => {
     app.listen(PORT, () =>

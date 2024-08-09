@@ -15,3 +15,20 @@ Developers can utilize this project to provide a further customized chatbot by f
 
 ## How to install this project 
 First of all, you need to clone this project through this GitHub repository. 
+```
+git@github.com:reikawa13/FullStack-Customized-AI-Chatbot.git
+```
+Secondly, you need to set up the .env file of the project. To get the OpenAI keys, you need to create your own project on the OpenAI website and add your billing information. To set up the MongoDB URL, you also need to set up a project on MongoDB's website. You can create your own JWT_SECRET and COOKIE_SECRET, as well as the port number. 
+```
+OPEN_AI_SECRET=YOUR_SECRET_KEY
+OPENAI_ORGANIZATION_ID=YOUR_SECRET_KEY
+MONGODB_URL=YOUR_SECRET_KEY
+JWT_SECRET=YOUR_SECRET_KEY
+COOKIE_SECRET=YOUR_SECRET_KEY
+PORT=YOUR_SECRET_PORT
+```
+Lastly, you need to run the following command in both the /frontend and /backend directories. 
+```
+npm run dev
+```
+

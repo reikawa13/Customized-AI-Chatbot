@@ -1,3 +1,3 @@
-# Full-Stack Customized Chatbot with OpenAI API
+# Full-Stack AI Chatbot with OpenAI API
 
 

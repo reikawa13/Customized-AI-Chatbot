@@ -6,7 +6,7 @@ This project provides a solution to this problem by creating an **AI chatbot wit
 
 Developers can utilize this project to provide a further customized chatbot by fine-tuning the OpenAI GPT. In the future, I plan to fine-tune this GPT model in the application process and the student lives at foreign universities. 
 
-**The technologies used:**
+## The technologies used:
 * NodeJS: backend
 * MongoDB: database for user information and chat history 
 * Vite and ReactJS: frontend 
